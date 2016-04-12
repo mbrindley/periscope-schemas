@@ -1,0 +1,495 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "http://jsonschema.net",
+  "type": "object",
+  "properties": {
+    "id": {
+      "id": "http://jsonschema.net/id",
+      "type": "integer"
+    },
+    "type": {
+      "id": "http://jsonschema.net/type",
+      "type": "string"
+    },
+    "folder": {
+      "id": "http://jsonschema.net/folder",
+      "type": "string"
+    },
+    "isDraft": {
+      "id": "http://jsonschema.net/isDraft",
+      "type": "string"
+    },
+    "number": {
+      "id": "http://jsonschema.net/number",
+      "type": "integer"
+    },
+    "owner": {
+      "id": "http://jsonschema.net/owner",
+      "type": "object",
+      "properties": {
+        "id": {
+          "id": "http://jsonschema.net/owner/id",
+          "type": "integer"
+        },
+        "firstName": {
+          "id": "http://jsonschema.net/owner/firstName",
+          "type": "string"
+        },
+        "lastName": {
+          "id": "http://jsonschema.net/owner/lastName",
+          "type": "string"
+        },
+        "email": {
+          "id": "http://jsonschema.net/owner/email",
+          "type": "string"
+        },
+        "phone": {
+          "id": "http://jsonschema.net/owner/phone",
+          "type": "null"
+        },
+        "type": {
+          "id": "http://jsonschema.net/owner/type",
+          "type": "string"
+        }
+      }
+    },
+    "mailbox": {
+      "id": "http://jsonschema.net/mailbox",
+      "type": "object",
+      "properties": {
+        "id": {
+          "id": "http://jsonschema.net/mailbox/id",
+          "type": "integer"
+        },
+        "name": {
+          "id": "http://jsonschema.net/mailbox/name",
+          "type": "string"
+        }
+      }
+    },
+    "customer": {
+      "id": "http://jsonschema.net/customer",
+      "type": "object",
+      "properties": {
+        "id": {
+          "id": "http://jsonschema.net/customer/id",
+          "type": "integer"
+        },
+        "firstName": {
+          "id": "http://jsonschema.net/customer/firstName",
+          "type": "string"
+        },
+        "lastName": {
+          "id": "http://jsonschema.net/customer/lastName",
+          "type": "string"
+        },
+        "email": {
+          "id": "http://jsonschema.net/customer/email",
+          "type": "string"
+        },
+        "phone": {
+          "id": "http://jsonschema.net/customer/phone",
+          "type": "string"
+        },
+        "type": {
+          "id": "http://jsonschema.net/customer/type",
+          "type": "string"
+        }
+      }
+    },
+    "threadCount": {
+      "id": "http://jsonschema.net/threadCount",
+      "type": "integer"
+    },
+    "status": {
+      "id": "http://jsonschema.net/status",
+      "type": "string"
+    },
+    "subject": {
+      "id": "http://jsonschema.net/subject",
+      "type": "string"
+    },
+    "preview": {
+      "id": "http://jsonschema.net/preview",
+      "type": "string"
+    },
+    "createdBy": {
+      "id": "http://jsonschema.net/createdBy",
+      "type": "object",
+      "properties": {
+        "id": {
+          "id": "http://jsonschema.net/createdBy/id",
+          "type": "integer"
+        },
+        "firstName": {
+          "id": "http://jsonschema.net/createdBy/firstName",
+          "type": "string"
+        },
+        "lastName": {
+          "id": "http://jsonschema.net/createdBy/lastName",
+          "type": "string"
+        },
+        "email": {
+          "id": "http://jsonschema.net/createdBy/email",
+          "type": "string"
+        },
+        "phone": {
+          "id": "http://jsonschema.net/createdBy/phone",
+          "type": "null"
+        },
+        "type": {
+          "id": "http://jsonschema.net/createdBy/type",
+          "type": "string"
+        }
+      }
+    },
+    "createdAt": {
+      "id": "http://jsonschema.net/createdAt",
+      "type": "string"
+    },
+    "modifiedAt": {
+      "id": "http://jsonschema.net/modifiedAt",
+      "type": "string"
+    },
+    "closedAt": {
+      "id": "http://jsonschema.net/closedAt",
+      "type": "null"
+    },
+    "closedBy": {
+      "id": "http://jsonschema.net/closedBy",
+      "type": "null"
+    },
+    "source": {
+      "id": "http://jsonschema.net/source",
+      "type": "object",
+      "properties": {
+        "type": {
+          "id": "http://jsonschema.net/source/type",
+          "type": "string"
+        },
+        "via": {
+          "id": "http://jsonschema.net/source/via",
+          "type": "string"
+        }
+      }
+    },
+    "cc": {
+      "id": "http://jsonschema.net/cc",
+      "type": "array",
+      "items": [
+        {
+          "id": "http://jsonschema.net/cc/0",
+          "type": "string"
+        },
+        {
+          "id": "http://jsonschema.net/cc/1",
+          "type": "string"
+        }
+      ]
+    },
+    "bcc": {
+      "id": "http://jsonschema.net/bcc",
+      "type": "array",
+      "items": [
+        {
+          "id": "http://jsonschema.net/bcc/0",
+          "type": "string"
+        },
+        {
+          "id": "http://jsonschema.net/bcc/1",
+          "type": "string"
+        }
+      ]
+    },
+    "tags": {
+      "id": "http://jsonschema.net/tags",
+      "type": "array",
+      "items": [
+        {
+          "id": "http://jsonschema.net/tags/0",
+          "type": "string"
+        },
+        {
+          "id": "http://jsonschema.net/tags/1",
+          "type": "string"
+        }
+      ]
+    },
+    "customFields": {
+      "id": "http://jsonschema.net/customFields",
+      "type": "array",
+      "items": [
+        {
+          "id": "http://jsonschema.net/customFields/0",
+          "type": "object",
+          "properties": {
+            "fieldId": {
+              "id": "http://jsonschema.net/customFields/0/fieldId",
+              "type": "integer"
+            },
+            "name": {
+              "id": "http://jsonschema.net/customFields/0/name",
+              "type": "string"
+            },
+            "value": {
+              "id": "http://jsonschema.net/customFields/0/value",
+              "type": "string"
+            }
+          }
+        },
+        {
+          "id": "http://jsonschema.net/customFields/1",
+          "type": "object",
+          "properties": {
+            "fieldId": {
+              "id": "http://jsonschema.net/customFields/1/fieldId",
+              "type": "integer"
+            },
+            "name": {
+              "id": "http://jsonschema.net/customFields/1/name",
+              "type": "string"
+            },
+            "value": {
+              "id": "http://jsonschema.net/customFields/1/value",
+              "type": "string"
+            }
+          }
+        }
+      ]
+    },
+    "threads": {
+      "id": "http://jsonschema.net/threads",
+      "type": "array",
+      "items": {
+        "id": "http://jsonschema.net/threads/0",
+        "type": "object",
+        "properties": {
+          "id": {
+            "id": "http://jsonschema.net/threads/0/id",
+            "type": "integer"
+          },
+          "assignedTo": {
+            "id": "http://jsonschema.net/threads/0/assignedTo",
+            "type": "object",
+            "properties": {
+              "id": {
+                "id": "http://jsonschema.net/threads/0/assignedTo/id",
+                "type": "integer"
+              },
+              "firstName": {
+                "id": "http://jsonschema.net/threads/0/assignedTo/firstName",
+                "type": "string"
+              },
+              "lastName": {
+                "id": "http://jsonschema.net/threads/0/assignedTo/lastName",
+                "type": "string"
+              },
+              "email": {
+                "id": "http://jsonschema.net/threads/0/assignedTo/email",
+                "type": "string"
+              },
+              "phone": {
+                "id": "http://jsonschema.net/threads/0/assignedTo/phone",
+                "type": "null"
+              },
+              "type": {
+                "id": "http://jsonschema.net/threads/0/assignedTo/type",
+                "type": "string"
+              }
+            }
+          },
+          "status": {
+            "id": "http://jsonschema.net/threads/0/status",
+            "type": "string"
+          },
+          "createdAt": {
+            "id": "http://jsonschema.net/threads/0/createdAt",
+            "type": "string"
+          },
+          "createdBy": {
+            "id": "http://jsonschema.net/threads/0/createdBy",
+            "type": "object",
+            "properties": {
+              "id": {
+                "id": "http://jsonschema.net/threads/0/createdBy/id",
+                "type": "integer"
+              },
+              "firstName": {
+                "id": "http://jsonschema.net/threads/0/createdBy/firstName",
+                "type": "string"
+              },
+              "lastName": {
+                "id": "http://jsonschema.net/threads/0/createdBy/lastName",
+                "type": "string"
+              },
+              "email": {
+                "id": "http://jsonschema.net/threads/0/createdBy/email",
+                "type": "string"
+              },
+              "phone": {
+                "id": "http://jsonschema.net/threads/0/createdBy/phone",
+                "type": "null"
+              },
+              "type": {
+                "id": "http://jsonschema.net/threads/0/createdBy/type",
+                "type": "string"
+              }
+            }
+          },
+          "source": {
+            "id": "http://jsonschema.net/threads/0/source",
+            "type": "object",
+            "properties": {
+              "type": {
+                "id": "http://jsonschema.net/threads/0/source/type",
+                "type": "string"
+              },
+              "via": {
+                "id": "http://jsonschema.net/threads/0/source/via",
+                "type": "string"
+              }
+            }
+          },
+          "type": {
+            "id": "http://jsonschema.net/threads/0/type",
+            "type": "string"
+          },
+          "state": {
+            "id": "http://jsonschema.net/threads/0/state",
+            "type": "string"
+          },
+          "customer": {
+            "id": "http://jsonschema.net/threads/0/customer",
+            "type": "object",
+            "properties": {
+              "id": {
+                "id": "http://jsonschema.net/threads/0/customer/id",
+                "type": "integer"
+              },
+              "firstName": {
+                "id": "http://jsonschema.net/threads/0/customer/firstName",
+                "type": "string"
+              },
+              "lastName": {
+                "id": "http://jsonschema.net/threads/0/customer/lastName",
+                "type": "string"
+              },
+              "email": {
+                "id": "http://jsonschema.net/threads/0/customer/email",
+                "type": "string"
+              },
+              "phone": {
+                "id": "http://jsonschema.net/threads/0/customer/phone",
+                "type": "string"
+              },
+              "type": {
+                "id": "http://jsonschema.net/threads/0/customer/type",
+                "type": "string"
+              }
+            }
+          },
+          "fromMailbox": {
+            "id": "http://jsonschema.net/threads/0/fromMailbox",
+            "type": "null"
+          },
+          "body": {
+            "id": "http://jsonschema.net/threads/0/body",
+            "type": "string"
+          },
+          "to": {
+            "id": "http://jsonschema.net/threads/0/to",
+            "type": "array",
+            "items": {
+              "id": "http://jsonschema.net/threads/0/to/0",
+              "type": "string"
+            }
+          },
+          "cc": {
+            "id": "http://jsonschema.net/threads/0/cc",
+            "type": "array",
+            "items": [
+              {
+                "id": "http://jsonschema.net/threads/0/cc/0",
+                "type": "string"
+              },
+              {
+                "id": "http://jsonschema.net/threads/0/cc/1",
+                "type": "string"
+              }
+            ]
+          },
+          "bcc": {
+            "id": "http://jsonschema.net/threads/0/bcc",
+            "type": "array",
+            "items": [
+              {
+                "id": "http://jsonschema.net/threads/0/bcc/0",
+                "type": "string"
+              },
+              {
+                "id": "http://jsonschema.net/threads/0/bcc/1",
+                "type": "string"
+              }
+            ]
+          },
+          "attachments": {
+            "id": "http://jsonschema.net/threads/0/attachments",
+            "type": "array",
+            "items": {
+              "id": "http://jsonschema.net/threads/0/attachments/0",
+              "type": "object",
+              "properties": {
+                "id": {
+                  "id": "http://jsonschema.net/threads/0/attachments/0/id",
+                  "type": "integer"
+                },
+                "mimeType": {
+                  "id": "http://jsonschema.net/threads/0/attachments/0/mimeType",
+                  "type": "string"
+                },
+                "filename": {
+                  "id": "http://jsonschema.net/threads/0/attachments/0/filename",
+                  "type": "string"
+                },
+                "size": {
+                  "id": "http://jsonschema.net/threads/0/attachments/0/size",
+                  "type": "integer"
+                },
+                "width": {
+                  "id": "http://jsonschema.net/threads/0/attachments/0/width",
+                  "type": "integer"
+                },
+                "height": {
+                  "id": "http://jsonschema.net/threads/0/attachments/0/height",
+                  "type": "integer"
+                },
+                "url": {
+                  "id": "http://jsonschema.net/threads/0/attachments/0/url",
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "tags": {
+            "id": "http://jsonschema.net/threads/0/tags",
+            "type": "array",
+            "items": [
+              {
+                "id": "http://jsonschema.net/threads/0/tags/0",
+                "type": "string"
+              },
+              {
+                "id": "http://jsonschema.net/threads/0/tags/1",
+                "type": "string"
+              },
+              {
+                "id": "http://jsonschema.net/threads/0/tags/2",
+                "type": "string"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
