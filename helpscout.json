@@ -1,494 +1,211 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "id": "http://jsonschema.net",
+  "id": "https://litmus.com",
   "type": "object",
   "properties": {
     "id": {
-      "id": "http://jsonschema.net/id",
+      "id": "https://litmus.com/id",
       "type": "integer"
     },
     "type": {
-      "id": "http://jsonschema.net/type",
+      "id": "https://litmus.com/type",
       "type": "string"
     },
     "folder": {
-      "id": "http://jsonschema.net/folder",
+      "id": "https://litmus.com/folder",
       "type": "string"
     },
     "isDraft": {
-      "id": "http://jsonschema.net/isDraft",
+      "id": "https://litmus.com/isDraft",
       "type": "string"
     },
     "number": {
-      "id": "http://jsonschema.net/number",
+      "id": "https://litmus.com/number",
       "type": "integer"
     },
     "owner": {
-      "id": "http://jsonschema.net/owner",
+      "id": "https://litmus.com/owner",
       "type": "object",
       "properties": {
         "id": {
-          "id": "http://jsonschema.net/owner/id",
+          "id": "https://litmus.com/owner/id",
           "type": "integer"
         },
         "firstName": {
-          "id": "http://jsonschema.net/owner/firstName",
+          "id": "https://litmus.com/owner/firstName",
           "type": "string"
         },
         "lastName": {
-          "id": "http://jsonschema.net/owner/lastName",
+          "id": "https://litmus.com/owner/lastName",
           "type": "string"
         },
         "email": {
-          "id": "http://jsonschema.net/owner/email",
+          "id": "https://litmus.com/owner/email",
           "type": "string"
         },
         "phone": {
-          "id": "http://jsonschema.net/owner/phone",
+          "id": "https://litmus.com/owner/phone",
           "type": "null"
         },
         "type": {
-          "id": "http://jsonschema.net/owner/type",
+          "id": "https://litmus.com/owner/type",
           "type": "string"
         }
       }
     },
     "mailbox": {
-      "id": "http://jsonschema.net/mailbox",
+      "id": "https://litmus.com/mailbox",
       "type": "object",
       "properties": {
         "id": {
-          "id": "http://jsonschema.net/mailbox/id",
+          "id": "https://litmus.com/mailbox/id",
           "type": "integer"
         },
         "name": {
-          "id": "http://jsonschema.net/mailbox/name",
+          "id": "https://litmus.com/mailbox/name",
           "type": "string"
         }
       }
     },
     "customer": {
-      "id": "http://jsonschema.net/customer",
+      "id": "https://litmus.com/customer",
       "type": "object",
       "properties": {
         "id": {
-          "id": "http://jsonschema.net/customer/id",
+          "id": "https://litmus.com/customer/id",
           "type": "integer"
         },
         "firstName": {
-          "id": "http://jsonschema.net/customer/firstName",
+          "id": "https://litmus.com/customer/firstName",
           "type": "string"
         },
         "lastName": {
-          "id": "http://jsonschema.net/customer/lastName",
+          "id": "https://litmus.com/customer/lastName",
           "type": "string"
         },
         "email": {
-          "id": "http://jsonschema.net/customer/email",
+          "id": "https://litmus.com/customer/email",
           "type": "string"
         },
         "phone": {
-          "id": "http://jsonschema.net/customer/phone",
+          "id": "https://litmus.com/customer/phone",
           "type": "string"
         },
         "type": {
-          "id": "http://jsonschema.net/customer/type",
+          "id": "https://litmus.com/customer/type",
           "type": "string"
         }
       }
     },
     "threadCount": {
-      "id": "http://jsonschema.net/threadCount",
+      "id": "https://litmus.com/threadCount",
       "type": "integer"
     },
     "status": {
-      "id": "http://jsonschema.net/status",
+      "id": "https://litmus.com/status",
       "type": "string"
     },
     "subject": {
-      "id": "http://jsonschema.net/subject",
+      "id": "https://litmus.com/subject",
       "type": "string"
     },
     "preview": {
-      "id": "http://jsonschema.net/preview",
+      "id": "https://litmus.com/preview",
       "type": "string"
     },
     "createdBy": {
-      "id": "http://jsonschema.net/createdBy",
+      "id": "https://litmus.com/createdBy",
       "type": "object",
       "properties": {
         "id": {
-          "id": "http://jsonschema.net/createdBy/id",
+          "id": "https://litmus.com/createdBy/id",
           "type": "integer"
         },
         "firstName": {
-          "id": "http://jsonschema.net/createdBy/firstName",
+          "id": "https://litmus.com/createdBy/firstName",
           "type": "string"
         },
         "lastName": {
-          "id": "http://jsonschema.net/createdBy/lastName",
+          "id": "https://litmus.com/createdBy/lastName",
           "type": "string"
         },
         "email": {
-          "id": "http://jsonschema.net/createdBy/email",
+          "id": "https://litmus.com/createdBy/email",
           "type": "string"
         },
         "phone": {
-          "id": "http://jsonschema.net/createdBy/phone",
+          "id": "https://litmus.com/createdBy/phone",
           "type": "null"
         },
         "type": {
-          "id": "http://jsonschema.net/createdBy/type",
+          "id": "https://litmus.com/createdBy/type",
           "type": "string"
         }
       }
     },
     "createdAt": {
-      "id": "http://jsonschema.net/createdAt",
+      "id": "https://litmus.com/createdAt",
       "type": "string"
     },
     "modifiedAt": {
-      "id": "http://jsonschema.net/modifiedAt",
+      "id": "https://litmus.com/modifiedAt",
       "type": "string"
     },
     "closedAt": {
-      "id": "http://jsonschema.net/closedAt",
+      "id": "https://litmus.com/closedAt",
       "type": "null"
     },
     "closedBy": {
-      "id": "http://jsonschema.net/closedBy",
+      "id": "https://litmus.com/closedBy",
       "type": "null"
     },
     "source": {
-      "id": "http://jsonschema.net/source",
+      "id": "https://litmus.com/source",
       "type": "object",
       "properties": {
         "type": {
-          "id": "http://jsonschema.net/source/type",
+          "id": "https://litmus.com/source/type",
           "type": "string"
         },
         "via": {
-          "id": "http://jsonschema.net/source/via",
+          "id": "https://litmus.com/source/via",
           "type": "string"
         }
       }
     },
     "cc": {
-      "id": "http://jsonschema.net/cc",
-      "type": "array",
-      "items": [
-        {
-          "id": "http://jsonschema.net/cc/0",
-          "type": "string"
-        },
-        {
-          "id": "http://jsonschema.net/cc/1",
-          "type": "string"
-        }
-      ]
-    },
-    "bcc": {
-      "id": "http://jsonschema.net/bcc",
-      "type": "array",
-      "items": [
-        {
-          "id": "http://jsonschema.net/bcc/0",
-          "type": "string"
-        },
-        {
-          "id": "http://jsonschema.net/bcc/1",
-          "type": "string"
-        }
-      ]
-    },
-    "tags": {
-      "id": "http://jsonschema.net/tags",
-      "type": "array",
-      "items": [
-        {
-          "id": "http://jsonschema.net/tags/0",
-          "type": "string"
-        },
-        {
-          "id": "http://jsonschema.net/tags/1",
-          "type": "string"
-        }
-      ]
-    },
-    "customFields": {
-      "id": "http://jsonschema.net/customFields",
-      "type": "array",
-      "items": [
-        {
-          "id": "http://jsonschema.net/customFields/0",
-          "type": "object",
-          "properties": {
-            "fieldId": {
-              "id": "http://jsonschema.net/customFields/0/fieldId",
-              "type": "integer"
-            },
-            "name": {
-              "id": "http://jsonschema.net/customFields/0/name",
-              "type": "string"
-            },
-            "value": {
-              "id": "http://jsonschema.net/customFields/0/value",
-              "type": "string"
-            }
-          }
-        },
-        {
-          "id": "http://jsonschema.net/customFields/1",
-          "type": "object",
-          "properties": {
-            "fieldId": {
-              "id": "http://jsonschema.net/customFields/1/fieldId",
-              "type": "integer"
-            },
-            "name": {
-              "id": "http://jsonschema.net/customFields/1/name",
-              "type": "string"
-            },
-            "value": {
-              "id": "http://jsonschema.net/customFields/1/value",
-              "type": "string"
-            }
-          }
-        }
-      ]
-    },
-    "threads": {
-      "id": "http://jsonschema.net/threads",
+      "id": "https://litmus.com/cc",
       "type": "array",
       "items": {
-        "id": "http://jsonschema.net/threads/0",
-        "type": "object",
-        "properties": {
-          "id": {
-            "id": "http://jsonschema.net/threads/0/id",
-            "type": "integer"
-          },
-          "assignedTo": {
-            "id": "http://jsonschema.net/threads/0/assignedTo",
-            "type": "object",
-            "properties": {
-              "id": {
-                "id": "http://jsonschema.net/threads/0/assignedTo/id",
-                "type": "integer"
-              },
-              "firstName": {
-                "id": "http://jsonschema.net/threads/0/assignedTo/firstName",
-                "type": "string"
-              },
-              "lastName": {
-                "id": "http://jsonschema.net/threads/0/assignedTo/lastName",
-                "type": "string"
-              },
-              "email": {
-                "id": "http://jsonschema.net/threads/0/assignedTo/email",
-                "type": "string"
-              },
-              "phone": {
-                "id": "http://jsonschema.net/threads/0/assignedTo/phone",
-                "type": "null"
-              },
-              "type": {
-                "id": "http://jsonschema.net/threads/0/assignedTo/type",
-                "type": "string"
-              }
-            }
-          },
-          "status": {
-            "id": "http://jsonschema.net/threads/0/status",
-            "type": "string"
-          },
-          "createdAt": {
-            "id": "http://jsonschema.net/threads/0/createdAt",
-            "type": "string"
-          },
-          "createdBy": {
-            "id": "http://jsonschema.net/threads/0/createdBy",
-            "type": "object",
-            "properties": {
-              "id": {
-                "id": "http://jsonschema.net/threads/0/createdBy/id",
-                "type": "integer"
-              },
-              "firstName": {
-                "id": "http://jsonschema.net/threads/0/createdBy/firstName",
-                "type": "string"
-              },
-              "lastName": {
-                "id": "http://jsonschema.net/threads/0/createdBy/lastName",
-                "type": "string"
-              },
-              "email": {
-                "id": "http://jsonschema.net/threads/0/createdBy/email",
-                "type": "string"
-              },
-              "phone": {
-                "id": "http://jsonschema.net/threads/0/createdBy/phone",
-                "type": "null"
-              },
-              "type": {
-                "id": "http://jsonschema.net/threads/0/createdBy/type",
-                "type": "string"
-              }
-            }
-          },
-          "source": {
-            "id": "http://jsonschema.net/threads/0/source",
-            "type": "object",
-            "properties": {
-              "type": {
-                "id": "http://jsonschema.net/threads/0/source/type",
-                "type": "string"
-              },
-              "via": {
-                "id": "http://jsonschema.net/threads/0/source/via",
-                "type": "string"
-              }
-            }
-          },
-          "type": {
-            "id": "http://jsonschema.net/threads/0/type",
-            "type": "string"
-          },
-          "state": {
-            "id": "http://jsonschema.net/threads/0/state",
-            "type": "string"
-          },
-          "customer": {
-            "id": "http://jsonschema.net/threads/0/customer",
-            "type": "object",
-            "properties": {
-              "id": {
-                "id": "http://jsonschema.net/threads/0/customer/id",
-                "type": "integer"
-              },
-              "firstName": {
-                "id": "http://jsonschema.net/threads/0/customer/firstName",
-                "type": "string"
-              },
-              "lastName": {
-                "id": "http://jsonschema.net/threads/0/customer/lastName",
-                "type": "string"
-              },
-              "email": {
-                "id": "http://jsonschema.net/threads/0/customer/email",
-                "type": "string"
-              },
-              "phone": {
-                "id": "http://jsonschema.net/threads/0/customer/phone",
-                "type": "string"
-              },
-              "type": {
-                "id": "http://jsonschema.net/threads/0/customer/type",
-                "type": "string"
-              }
-            }
-          },
-          "fromMailbox": {
-            "id": "http://jsonschema.net/threads/0/fromMailbox",
-            "type": "null"
-          },
-          "body": {
-            "id": "http://jsonschema.net/threads/0/body",
-            "type": "string"
-          },
-          "to": {
-            "id": "http://jsonschema.net/threads/0/to",
-            "type": "array",
-            "items": {
-              "id": "http://jsonschema.net/threads/0/to/0",
-              "type": "string"
-            }
-          },
-          "cc": {
-            "id": "http://jsonschema.net/threads/0/cc",
-            "type": "array",
-            "items": [
-              {
-                "id": "http://jsonschema.net/threads/0/cc/0",
-                "type": "string"
-              },
-              {
-                "id": "http://jsonschema.net/threads/0/cc/1",
-                "type": "string"
-              }
-            ]
-          },
-          "bcc": {
-            "id": "http://jsonschema.net/threads/0/bcc",
-            "type": "array",
-            "items": [
-              {
-                "id": "http://jsonschema.net/threads/0/bcc/0",
-                "type": "string"
-              },
-              {
-                "id": "http://jsonschema.net/threads/0/bcc/1",
-                "type": "string"
-              }
-            ]
-          },
-          "attachments": {
-            "id": "http://jsonschema.net/threads/0/attachments",
-            "type": "array",
-            "items": {
-              "id": "http://jsonschema.net/threads/0/attachments/0",
-              "type": "object",
-              "properties": {
-                "id": {
-                  "id": "http://jsonschema.net/threads/0/attachments/0/id",
-                  "type": "integer"
-                },
-                "mimeType": {
-                  "id": "http://jsonschema.net/threads/0/attachments/0/mimeType",
-                  "type": "string"
-                },
-                "filename": {
-                  "id": "http://jsonschema.net/threads/0/attachments/0/filename",
-                  "type": "string"
-                },
-                "size": {
-                  "id": "http://jsonschema.net/threads/0/attachments/0/size",
-                  "type": "integer"
-                },
-                "width": {
-                  "id": "http://jsonschema.net/threads/0/attachments/0/width",
-                  "type": "integer"
-                },
-                "height": {
-                  "id": "http://jsonschema.net/threads/0/attachments/0/height",
-                  "type": "integer"
-                },
-                "url": {
-                  "id": "http://jsonschema.net/threads/0/attachments/0/url",
-                  "type": "string"
-                }
-              }
-            }
-          },
-          "tags": {
-            "id": "http://jsonschema.net/threads/0/tags",
-            "type": "array",
-            "items": [
-              {
-                "id": "http://jsonschema.net/threads/0/tags/0",
-                "type": "string"
-              },
-              {
-                "id": "http://jsonschema.net/threads/0/tags/1",
-                "type": "string"
-              },
-              {
-                "id": "http://jsonschema.net/threads/0/tags/2",
-                "type": "string"
-              }
-            ]
-          }
-        }
+        "id": "https://litmus.com/auto-generated-schema-332"
+      }
+    },
+    "bcc": {
+      "id": "https://litmus.com/bcc",
+      "type": "array",
+      "items": {
+        "id": "https://litmus.com/auto-generated-schema-712"
+      }
+    },
+    "tags": {
+      "id": "https://litmus.com/tags",
+      "type": "array",
+      "items": {
+        "id": "https://litmus.com/auto-generated-schema-939"
+      }
+    },
+    "customFields": {
+      "id": "https://litmus.com/customFields",
+      "type": "array",
+      "items": {
+        "id": "https://litmus.com/auto-generated-schema-414"
+      }
+    },
+    "threads": {
+      "id": "https://litmus.com/threads",
+      "type": "array",
+      "items": {
+        "id": "https://litmus.com/auto-generated-schema-694"
       }
     }
   }
