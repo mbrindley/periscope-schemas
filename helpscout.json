@@ -177,35 +177,35 @@
       "id": "https://litmus.com/cc",
       "type": "array",
       "items": {
-        "id": "https://litmus.com/auto-generated-schema-332"
+        "type": "string"
       }
     },
     "bcc": {
       "id": "https://litmus.com/bcc",
       "type": "array",
       "items": {
-        "id": "https://litmus.com/auto-generated-schema-712"
+        "type": "string"
       }
     },
     "tags": {
       "id": "https://litmus.com/tags",
       "type": "array",
       "items": {
-        "id": "https://litmus.com/auto-generated-schema-939"
+        "type": "string"
       }
     },
     "customFields": {
       "id": "https://litmus.com/customFields",
       "type": "array",
       "items": {
-        "id": "https://litmus.com/auto-generated-schema-414"
+        "type": "string"
       }
     },
     "threads": {
       "id": "https://litmus.com/threads",
       "type": "array",
       "items": {
-        "id": "https://litmus.com/auto-generated-schema-694"
+        "type": "string"
       }
     }
   }
